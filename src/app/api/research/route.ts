@@ -1,7 +1,7 @@
 import { runDeepResearch } from '@/lib/research/agent';
 import type { ProviderId } from '@/types/provider';
 
-export const maxDuration = 600;
+export const maxDuration = 300;
 
 export async function POST(req: Request) {
   const {

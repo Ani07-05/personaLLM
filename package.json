@@ -1,5 +1,5 @@
 {
-  "name": "tmp-init",
+  "name": "personalllm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,37 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.45",
+    "@ai-sdk/google": "^3.0.29",
+    "@ai-sdk/openai": "^3.0.30",
+    "@ai-sdk/react": "^3.0.93",
+    "@clerk/nextjs": "^6.38.0",
+    "@e2b/code-interpreter": "^2.3.3",
+    "@tavily/core": "^0.7.1",
+    "@types/pdf-parse": "^1.1.5",
+    "ai": "^6.0.91",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "convex": "^1.32.0",
+    "dexie": "^4.3.0",
+    "dexie-react-hooks": "^4.2.0",
+    "highlight.js": "^11.11.1",
+    "immer": "^11.1.4",
+    "lucide-react": "^0.574.0",
+    "marked": "^17.0.3",
+    "nanoid": "^5.1.6",
     "next": "16.1.6",
+    "next-themes": "^0.4.6",
+    "pdf-lib": "^1.17.1",
+    "radix-ui": "^1.4.3",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.4.1",
+    "unpdf": "^1.4.0",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,7 +48,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "shadcn": "^3.8.5",
     "tailwindcss": "^4",
+    "tw-animate-css": "^1.4.0",
     "typescript": "^5"
   }
 }

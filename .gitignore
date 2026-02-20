@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # convex generated
-convex/_generated/
+# convex/_generated/
